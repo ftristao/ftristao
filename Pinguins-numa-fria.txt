@@ -1,0 +1,22 @@
+Inicio de jogo
+Colocar filhote e pai azul no iceberg
+Atravessar 
+Colocar pai azul na outra margem
+Atravessar
+Colocar pai verde no iceberg
+atravessar
+Colocar pai verde na outra margem
+atravessar
+Colocar filhote vermelho no iceberg
+atravessa
+Colocar filhote verde na outra margem
+atravessar
+Colocar pai vermelho no iceberg
+atravessa
+Colocar filhote vermelho com o pai
+atravessa
+Coloca o pai vermelho na outra margem
+Coloca filhote vermelho na outra margem
+Fim do jogo
+
+
