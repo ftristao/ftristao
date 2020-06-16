@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="chico"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-16 09:27:09 "/>
+        <attribute name="created" value="Y2hpY287UFNJU1Q5OTsyMDIwLTA2LTE2OyIwOTowNjo0NyAiOzIyMzM="/>
+        <attribute name="edited" value="Y2hpY287UFNJU1Q5OTsyMDIwLTA2LTE2OyIwOToyNzowOSAiOzI7MjM0Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="mes1, mes2, mes3, mes4, media, premio" type="Real" array="False" size=""/>
+            <declare name="Nome" type="String" array="False" size=""/>
+            <output expression="&quot;Informe seu nome: &quot;" newline="True"/>
+            <input variable="Nome"/>
+            <output expression="&quot;Agora, informe o valor de janeiro: &quot;" newline="True"/>
+            <input variable="mes1"/>
+            <output expression="&quot;Agora, informe o valor de fevereiro: &quot;" newline="True"/>
+            <input variable="mes2"/>
+            <output expression="&quot;Agora, informe o valor de marco: &quot;" newline="True"/>
+            <input variable="mes3"/>
+            <output expression="&quot;Agora, informe o valor de abril: &quot;" newline="True"/>
+            <input variable="mes4"/>
+            <assign variable="media" expression="(mes1 + mes2 + mes3 + mes4) / 4"/>
+            <if expression="media &gt;= 5000">
+                <then>
+                    <assign variable="premio" expression="(mes1 + mes2 + mes3 + mes4) * 0.10"/>
+                </then>
+                <else>
+                    <assign variable="premio" expression="(mes1 + mes2 + mes3 + mes4) * 0.03"/>
+                </else>
+            </if>
+            <output expression="Nome &amp; &quot; o seu premio sera de &quot; &amp; premio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
